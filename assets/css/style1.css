@@ -1,0 +1,76 @@
+body{
+    background-image: url("../img/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 200px;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    margin-bottom:50px;
+    box-shadow: 5px 5px 10px 3px gray;
+}
+.first{
+    position: relative;
+    height: 400px;
+    width: 600px;
+}
+.sec{
+    position: relative;
+    top: -500px;
+    left: -160px;
+    height: 500px;
+    width: 180px;
+    /* background-image: url("../img/man.png"); */
+    background-color:  #4DFAB3;
+    border-radius: 25px;
+
+}
+.first p{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    margin: 50px;
+    margin-left: 270px;
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 2px 2px #4DFAB3;
+}
+.sec p{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+    margin: 30px;
+    margin-top: 160px;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    color: white;
+}
+img{
+    height:180px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    left: 380px;
+    top: -150px;
+}
+i{
+    font-size: 20px;
+    position: relative;
+    margin: 10px;
+    top: 100px;
+    color: white;
+    left: 5px;
+}
+.fa-bookmark{
+    top: -10px;
+    font-size: 30px;
+    left: 130px;    
+}
